@@ -3,13 +3,13 @@
 # KinoTime
 
 O'rnatilgan kutubxonalar {
-    @tailwindcss/vite
-    axios
-    react
-    react-dom
-    react-router-dom
-    swiper 
-    tailwindcss
+    @tailwindcss/vite,
+    axios,
+    react,
+    react-dom,
+    react-router-dom,
+    swiper ,
+    tailwindcss,
 }
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
