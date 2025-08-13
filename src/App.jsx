@@ -1,9 +1,13 @@
+import Layout from './layouts/Layout';
+// import HomePage from './pages/HomePage';  // misol uchun
 
 function App() {
-
   return (
-    <h1>App jsx</h1>
-  )
+    <Layout>
+      {/* <HomePage /> */}
+      {/* Boshqa pagelaram shunaqa davom etad... */}
+    </Layout>
+  );
 }
 
-export default App
+export default App;
