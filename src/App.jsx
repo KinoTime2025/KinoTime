@@ -1,11 +1,15 @@
-import Hero from "./pages/Hero"
+import { Route, Routes } from "react-router-dom";
+import Hero from "./pages/Hero";
+import SingleMovie from "./pages/SingleMovie";
 
 function App() {
-
   return (
-    // <h1>App jsx</h1>
-    <Hero/>
-  )
+    <Routes>
+      <Route path="/" element={<Hero/>}/>
+      <Route path="/singleMovie/:id" element={<SingleMovie/>}/>
+    </Routes> 
+  );
 }
 
-export default App
+
+export default App;
