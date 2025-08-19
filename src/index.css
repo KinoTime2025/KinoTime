@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Alexandria';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../src/assets/fonts/alexandria-v5-latin-regular.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Alexandria';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../src/assets/fonts/alexandria-v5-latin-700.woff2') format('woff2'); 
+}
+

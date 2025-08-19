@@ -1,8 +1,12 @@
+import Layout from './layouts/Layout'
+import React from 'react'
 
 function App() {
-
   return (
-    <h1>App jsx</h1>
+    <Layout>
+
+      
+    </Layout>
   )
 }
 
