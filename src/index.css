@@ -22,7 +22,10 @@ body{
 }
 
 .containers{
-	max-width: 1440px;
-	padding: 0 10px;
+	max-width: 1492px;
+	padding: 0 5px;
   margin: 0 auto;
 }
+
+/*     ----------  Trailer Get  ----------     */
+
