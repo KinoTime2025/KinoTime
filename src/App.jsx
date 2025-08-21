@@ -1,8 +1,11 @@
+import ExpectedMovies from './components/ExpectedMovies'
 
-function App() {
-
+const App = () => {
   return (
-    <h1>kinotime</h1>
+    <div>
+      <ExpectedMovies/>
+      {/* <MovieCarousel/> */}
+    </div>
   )
 }
 
