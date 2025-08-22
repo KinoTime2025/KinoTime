@@ -28,7 +28,7 @@ export default function MovieCard({ title, poster, year, imdbRating, genre, coun
         </div>
       </div>
     </div> 
-    <h3 className=" text-[20px] font-bold text-[#fff] pt-[10px] ">{title}</h3>
+    <h3 className=" text-[20px] font-bold text-[#fff] pt-[10px] line-clamp-1">{title}</h3>
     </div>
   );
 }
