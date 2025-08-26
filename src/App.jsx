@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Hero from "./pages/Hero";
 import SingleMovie from "./pages/SingleMovie";
 
+
 function App() {
   return (
     <Routes>
@@ -13,3 +14,14 @@ function App() {
 
 
 export default App;
+
+// const App = () => {
+//   return (
+//     <div>
+//       <SearchPart/>
+//     </div>
+//   )
+// }
+
+// export default App
+
