@@ -42,7 +42,7 @@ const Hero = () => {
               </div>
 
               <div className="relative z-10 w-[400px] pl-[50px] pt-25 pb-5">
-                <h2 className="sm:text-[35px] text-[20px] font-medium sm:font-bold text-start w-auto sm:w-[500px] mb-[40px]">
+                <h2 className="sm:text-[35px] text-[20px] font-medium sm:font-bold text-center sm:text-start w-auto sm:w-[500px] mb-[40px]">
                   {movie.title}
                 </h2>
 
