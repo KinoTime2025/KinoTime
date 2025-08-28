@@ -1,12 +1,11 @@
-
-import Footer from '../components/Footer/footer';
+import Footer from '../components/Footer/footer'
 
 const Layout = () => {
   return (
     <>
       {/* <Navbar /> ----- bu joyga navbar qoyasiz */}
-     
-      <Footer />
+      {/* <TralerGet/> */}
+      <Footer /> 
     </>
   );
 };
