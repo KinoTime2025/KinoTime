@@ -41,7 +41,7 @@ const Hero = () => {
                 style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)), url('https://kinotime.world${movie.backdrop}')` }} >
               </div>
 
-              <div className="relative p-0 text-center sm:text-start sm:mx-0 mx-auto  z-10 w-[400px] sm:pl-[50px] sm:pt-25 pb-5">
+              <div className="relative container p-0 text-center sm:text-start sm:mx-0 mx-auto  z-10 w-[400px] sm:pl-[50px] sm:pt-25 pb-5">
                 <h2 className="sm:text-[35px] text-[24px] font-bold text-center sm:text-start w-auto sm:w-[500px] mb-[40px]">
                   {movie.title}
                 </h2>
