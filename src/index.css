@@ -21,11 +21,11 @@ body{
 	font-family: "Alexandria", sans-serif;
 }
 
-.containers{
-	max-width: 1492px;
-	padding: 0 5px;
+ .containers{
+	max-width: 1526px;
+	padding: 0 20px;
   margin: 0 auto;
-}
+} 
 
 /*     ----------  Trailer Get  ----------     */
 
